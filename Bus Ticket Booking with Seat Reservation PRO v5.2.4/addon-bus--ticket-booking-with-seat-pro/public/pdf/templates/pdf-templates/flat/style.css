@@ -1,0 +1,126 @@
+.pdf-ticket-body {
+    background: #fff;
+    padding: 10px;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 680px;
+}
+
+.pdf-header {
+    text-align: center;
+}
+
+.wbtm-ticket {
+    padding: 10px;
+    border: 1px solid #ddd;
+    width: 100%;
+}
+
+.pdf-header h4,
+.pdf-header h5 {
+    padding: 0;
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+/*Tickets*/
+.wbtm-ticket-body {
+    background: #fff;
+    padding: 10px;
+    margin: 40px 0 50px;
+    width: 100%;
+    overflow: hidden;
+    display: block;
+}
+
+.wbtm-ticket-body table {
+    width: 100%;
+    overflow: hidden;
+    display: block;
+}
+
+.wbtm-ticket-body table tr {
+    border: 1px solid #fbfbfb !important;
+}
+
+.wbtm-ticket-body table tr td {
+    padding: 6px;
+    font-size: 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+.wbtm-ticket-body table tr td h3 {
+    padding: 10px 0;
+    margin: 0;
+    font-size: 25px;
+}
+
+.ticket-search {
+    width: 400px;
+    background: #fff;
+    text-align: center;
+    padding: 20px;
+    margin: 30px auto;
+    border: 1px solid #ddd;
+}
+
+.ticket-search h2 {
+    margin: 0;
+    padding: 0 0 20px 0;
+}
+
+.ticket-search input {
+    display: block;
+    width: 100%;
+    padding: 7px;
+    margin-bottom: 10px;
+}
+
+.ticket-search button {
+    background: #676fec;
+    color: #fff;
+    border: 0;
+    padding: 10px 20px;
+    font-size: 15px;
+}
+
+span.wbtm-ticket-hold {
+    background: #d0d0d0;
+    padding: 5px 20px;
+}
+
+span.wbtm-ticket-confirm {
+    background: #02792f;
+    padding: 5px 20px;
+    color: #fff;
+}
+
+input.ticket-input {
+    padding: 10px !important;
+    margin-bottom: 30px !important;
+}
+
+.wbtm-ticket-single {
+    padding: 3px;
+}
+
+.wbtm-ticket-single .wbtm-ticket-inline {
+    display: inline-block;
+    width: 49%;
+    position: relative;
+}
+
+.wbtm-bus-title{
+    font-size: 18px;
+    font-weight: 700;
+    color: red;
+}
+.wbtm-ticket-qr-code {
+    text-align: center;
+}
+
+.wbtm-ticket-qr-code img {
+    width: 110px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+}

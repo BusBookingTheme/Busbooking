@@ -1,0 +1,2267 @@
+.wp-admin .search-radio-sec {
+    display: none;
+}
+
+.pdf-ticket-body {
+    background: #fff;
+    padding: 10px;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 680px;
+}
+
+.pdf-header {
+    text-align: center;
+}
+
+.wbtm-ticket {
+    padding: 10px;
+    border: 1px solid #ddd;
+    width: 100%;
+}
+
+.pdf-header h4,
+.pdf-header h5 {
+    padding: 0;
+    margin: 10px 0;
+    font-size: 14px;
+}
+
+
+/*Tickets*/
+
+.wbtm-ticket-body {
+    background: #fff;
+    padding: 10px;
+    margin: 40px auto;
+    width: 675px;
+    overflow: hidden;
+    display: block;
+}
+
+.wbtm_ticket_checking {
+    color: white;
+    background: #46d52b;
+    padding: 3px;
+    border-radius: 3px;
+}
+
+.wbtm_checked_in {
+    background: #46d52b;
+}
+
+.wbtm_not_checked_in {
+    background: #d6b336;
+}
+
+.wbtm-ticket-qr-code {
+    text-align: center;
+}
+
+.wbtm-ticket-qr-code img {
+    width: 110px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+
+.wbtm-ticket-body table {
+    width: 100%;
+    overflow: hidden;
+    display: block;
+}
+
+.wbtm-ticket-body table tr {
+    border: 1px solid #fbfbfb !important;
+}
+
+.wbtm-ticket-body table tr td {
+    padding: 6px;
+    font-size: 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+.wbtm-ticket-body table tr td h3 {
+    padding: 10px 0;
+    margin: 0;
+    font-size: 25px;
+}
+
+.ticket-search {
+    width: 400px;
+    background: #fff;
+    text-align: center;
+    padding: 20px;
+    margin: 30px auto;
+    border: 1px solid #ddd;
+}
+
+.ticket-search h2 {
+    margin: 0;
+    padding: 0 0 20px 0;
+}
+
+.ticket-search input {
+    display: block;
+    width: 100%;
+    padding: 7px;
+    margin-bottom: 10px;
+}
+
+.ticket-search button {
+    background: #676fec;
+    color: #fff;
+    border: 0;
+    padding: 10px 20px;
+    font-size: 15px;
+}
+
+span.wbtm-ticket-hold {
+    background: #d0d0d0;
+    padding: 5px 20px;
+}
+
+span.wbtm-ticket-confirm {
+    background: #02792f;
+    padding: 5px 20px;
+    color: #fff;
+}
+
+.wp-admin .search-radio-sec {
+    display: none;
+}
+
+input.ticket-input {
+    padding: 10px !important;
+    margin-bottom: 30px !important;
+}
+
+.wbtm-ticket-single {
+    padding: 3px;
+}
+
+.wbtm-ticket-single .wbtm-ticket-inline {
+    display: inline-block;
+    width: 49%;
+    position: relative;
+}
+
+.wbtm_passenger_list_table tbody tr td:last-child>div {
+    display: flex;
+    align-items: center;
+}
+
+.wbtm_passenger_list_table tbody tr td:last-child a {
+    border: 1px solid #8f8f8f;
+    padding: 3px;
+    border-radius: 3px;
+    margin-right: 1px;
+}
+
+.wbtm_passenger_list_table tbody tr td:last-child a:hover {
+    background: #2271b1;
+}
+
+.wbtm_passenger_list_table tbody tr td:last-child a:last-child span {
+    color: #f4433c
+}
+
+.wbtm_passenger_list_table tbody tr td:last-child a:last-child:hover {
+    background: #f4433c;
+}
+
+.wbtm_passenger_list_table tbody tr td:last-child a:hover span {
+    color: #fff;
+}
+
+.wbtm_passenger_list_table tbody tr td:last-child a:last-child {
+    border-color: #f4433c;
+}
+
+.wbtm_passenger_list_table tbody tr td {
+    vertical-align: middle;
+    text-align: left;
+}
+
+.wbtm_passenger_list_table tbody tr:nth-child(odd) {
+    background-color: #dfe6e6;
+}
+
+.wbtm-bus-title {
+    font-size: 18px;
+    font-weight: 700;
+    color: red;
+}
+
+.inside .sec {
+    display: block;
+    font-size: 15px;
+    font-weight: normal;
+    margin: 15px 0;
+}
+
+.sec label {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.mep_status .active {
+    background: green none repeat scroll 0 0;
+    color: #fff;
+    padding: 6px 10px;
+}
+
+.mep_status .err {
+    background: red none repeat scroll 0 0;
+    color: #fff;
+    padding: 6px 10px;
+}
+
+#mep_uid {
+    width: 65px;
+}
+
+.inside .sec input {
+    border: 1px solid #ddd;
+    padding: 5px;
+    width: 100%;
+    color: #000;
+}
+
+.inside .sec label {
+    font-weight: normal;
+    display: block;
+}
+
+table.atendee-info {
+    display: block;
+    overflow: hidden;
+    width: 100%;
+}
+
+
+/* Always set the map height explicitly to define the size of the div
+ * element that contains the map. */
+
+#map {
+    height: 250px;
+}
+
+#infowindow-content .title {
+    font-weight: bold;
+}
+
+#infowindow-content {
+    display: none;
+}
+
+#map #infowindow-content {
+    display: inline;
+}
+
+.pac-card {
+    margin: 10px 10px 0 0;
+    border-radius: 2px 0 0 2px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    outline: none;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
+    background-color: #fff;
+    font-family: Roboto, sans-serif;
+}
+
+#pac-container {
+    padding-bottom: 12px;
+    margin-right: 12px;
+}
+
+.pac-controls {
+    display: inline-block;
+    padding: 5px 11px;
+}
+
+.pac-controls label {
+    font-family: Roboto, serif;
+    font-size: 13px;
+    font-weight: 300;
+}
+
+#pac-input {
+    background-color: #fff;
+    font-family: Roboto, serif;
+    font-size: 15px;
+    font-weight: 300;
+    margin-left: 12px;
+    padding: 0 11px 0 13px;
+    text-overflow: ellipsis;
+    width: 400px;
+}
+
+#pac-input:focus {
+    border-color: #4d90fe;
+}
+
+div#mep_event_faq_r {
+    display: block;
+    width: 94%;
+    border: 1px solid #ddd;
+    padding: 20px;
+}
+
+.mep-faq-input {
+    width: 100%;
+    display: block;
+    border: 1px solid #8a8a8a;
+    padding: 5px;
+    margin: 15px 0;
+}
+
+div#mep-event-faq-box {
+    overflow: hidden;
+}
+
+a.button.remove-faq-row {
+    /* float: right; */
+    overflow: hidden;
+    display: inline-block;
+}
+
+.settings_page_mep_event_settings_page h2 {
+    padding-left: 10px;
+}
+
+.mep-attendee-sec-details span {
+    border: 1px solid #ddd;
+    padding: 10px;
+    display: inline-block;
+}
+
+.mep-attendee-sec-details .ea-label {
+    width: 200px !important;
+    font-weight: bold;
+}
+
+.mep-attendee-sec-details .ea-value {
+    width: 68% !important;
+}
+
+.mep-attendee-sec-details .sec {
+    margin: 0;
+}
+
+div#wbtm-bus-ticket-type {
+    overflow: auto;
+}
+
+tbody#seat_panel tr td {
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+tbody#seat_panel tr td select {
+    display: block;
+    margin: 0 auto;
+}
+
+
+/*Tickets*/
+
+.wbtm-ticket-body {
+    background: #fff;
+    padding: 10px;
+    margin: 40px auto;
+    width: 600px;
+}
+
+.wbtm-ticket-body table {
+    width: 100%;
+}
+
+.wbtm-ticket-body table tr {
+    border: 1px solid #fbfbfb !important;
+}
+
+.wbtm-ticket-body table tr td {
+    padding: 6px;
+    font-size: 15px;
+    border-bottom: 1px solid #ddd;
+}
+
+.wbtm-ticket-body table tr td h3 {
+    padding: 10px 0;
+    margin: 0;
+    font-size: 25px;
+}
+
+.ticket-search {
+    width: 400px;
+    background: #fff;
+    text-align: center;
+    padding: 20px;
+    margin: 30px auto;
+}
+
+.ticket-search h2 {
+    margin: 0;
+    padding: 0 0 20px 0;
+}
+
+.ticket-search input {
+    display: block;
+    width: 100%;
+    padding: 7px;
+    margin-bottom: 10px;
+}
+
+.ticket-search button {
+    background: #676fec;
+    color: #fff;
+    border: 0;
+    padding: 10px 20px;
+    font-size: 15px;
+}
+
+span.wbtm-ticket-hold {
+    background: #d0d0d0;
+    padding: 5px 20px;
+}
+
+span.wbtm-ticket-cancelled {
+    background: #FF0000;
+    padding: 5px 10px;
+    color: #fff;
+}
+
+span.wbtm-ticket-confirm {
+    background: #02792f;
+    padding: 5px 10px;
+    color: #fff;
+}
+
+.wp-admin span.wbtm-ticket-confirm,
+.wp-admin span.wbtm-ticket-hold,
+.wp-admin span.wbtm-ticket-cancel {
+    padding: 0 10px;
+    margin-bottom: 0;
+    display: block;
+    text-align: center;
+}
+
+.wbtm-search-form-sec {
+    display: block;
+    overflow: hidden;
+}
+
+.fields-li {
+    display: inline-block;
+}
+
+select.seat_type.select2,
+.leaving-list select {
+    /*padding: 10px 10px;*/
+    font-size: 15px;
+}
+
+.fields-li input {
+    padding: 10px !important;
+    font-size: 16px;
+}
+
+.fields-li button {
+    padding: 10px 30px;
+    font-size: 17px;
+    background: green;
+    border: 0;
+    color: #fff;
+}
+
+ul.search-li {
+    text-align: center;
+}
+
+ul.search-li li {
+    display: inline-block;
+    font-size: 16px;
+    vertical-align: top;
+}
+
+ul.search-li li input {
+    padding: 10px;
+    font-size: 16px;
+}
+
+ul.search-li li button {
+    padding: 12px 20px;
+    background: green;
+    border: 0;
+    color: #fff;
+    margin-top: 25px;
+}
+
+.mep-user-info-sec {
+    border: 1px solid #ddd;
+    margin-bottom: 5px;
+    padding: 20px;
+}
+
+.mep-user-info-sec input {
+    display: block;
+    padding: 10px;
+    margin-bottom: 5px;
+    width: 100%;
+    font-size: 14px;
+}
+
+.mep-user-info-sec {
+    border: 1px solid #ddd;
+    margin-bottom: 5px;
+    padding: 20px;
+}
+
+.mep-user-info-sec input {
+    display: block;
+    padding: 10px !important;
+    margin-bottom: 5px !important;
+    width: 100% !important;
+    font-size: 14px;
+}
+
+.wbtm-search-form-sec.the_select {
+    margin-bottom: 20px;
+}
+
+.wbtm-search-form-sec.the_select .select2-container {
+    display: block;
+    padding: inherit;
+}
+
+.wbtm-search-form-sec.the_select input {
+    display: block;
+    width: 100%;
+    padding: 5px;
+    margin: 0 0 0 0;
+    font-size: 12px;
+    height: 27px;
+    border-radius: 5px;
+}
+
+.wbtm-search-form-sec.the_select .fields-li {
+    vertical-align: text-bottom;
+}
+
+.wbtm-search-form-sec.the_select button {
+    padding: 5px 18px;
+    border-radius: 5px;
+}
+
+ul.admin-bus-list li {
+    border: 2px solid #666;
+    padding: 5px;
+    background: #fff;
+}
+
+.admin-bus-list {
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.admin-bus-list .admin-bus-list-item.one {
+    width: 10%;
+}
+
+.admin-bus-list .admin-bus-list-item.two,
+.admin-bus-list .admin-bus-list-item.three {
+    width: 45%;
+}
+
+.admin-bus-list .admin-bus-list-item {
+    display: flex;
+}
+
+.admin-bus-list .admin-bus-list-item.two>div {
+    width: 50%
+}
+
+.admin-bus-list .admin-bus-list-item.three>div {
+    width: 33.33%
+}
+
+ul.admin-bus-list li .bus-name {
+    display: inline-block;
+    width: 19%;
+}
+
+.bus-seat-panel {
+    width: 28%;
+    float: left;
+    overflow: hidden;
+}
+
+.bus-seat-panel img {
+    margin-bottom: -4px;
+}
+
+.bus-info-sec {
+    width: 70%;
+    float: left;
+    overflow: hidden;
+}
+
+.leaving-list {
+    width: 33%;
+    float: left;
+    padding-left: 0;
+}
+
+.leaving-list h6,
+.leaving-list div {
+    padding: 5px !important;
+}
+
+.top-search-section {
+    display: block;
+    overflow: hidden;
+    float: none;
+    border-bottom: 1px solid #d3d3d3;
+    padding: 5px;
+}
+
+table.selected-seat-list {
+    width: 100%;
+    margin: 20px 0;
+}
+
+table.selected-seat-list tr {
+    border: 1px solid #ddd;
+}
+
+td.no-border.empty-lane {
+    width: 60px;
+}
+
+.leaving-list select {
+    width: 90%;
+    padding: 0;
+}
+
+table.selected-seat-list td {
+    padding: 5px 10px;
+}
+
+div.admin-bus-details {
+    overflow: hidden;
+    border: 1px solid #ddd;
+    margin-top: 10px;
+    padding: 10px;
+    display: none;
+    justify-content: space-between;
+}
+
+.admin-bus-details form {
+    width: 100%;
+}
+
+table.bus-seats tr td {
+    border: none;
+    text-align: center;
+    padding: 10px 0;
+    min-width: 12px;
+}
+
+table.bus-seats tr td.bus-col-divider {
+    border: none;
+}
+
+table.bus-seats tr {
+    border: 1px solid #ddd;
+}
+
+.seat-selected-list-fare table {
+    width: 100%;
+    border: 1px solid #ddd;
+    margin-top: 30px;
+}
+
+.seat-selected-list-fare table td,
+.seat-selected-list-fare table th {
+    border-bottom: 1px solid #ddd;
+    padding: 5px;
+    text-align: left;
+    background-color: #f5f5f5;
+}
+
+.bus-info-sec h6 {
+    padding: 0;
+    margin: 0 0 5px 0;
+    font-size: 15px;
+}
+
+span.booked-seat {
+    display: block;
+    background: #ddd;
+    padding: 8px;
+    min-height: auto !important;
+}
+
+span.seat-left {
+    background: #73263f;
+    padding: 5px;
+    color: #fff;
+    display: inline-block;
+    border-radius: 3px;
+}
+
+span.confirmed-seat {
+    background: #ff2626;
+    display: block;
+    color: #fff;
+    padding: 8px;
+    min-height: auto !important;
+}
+
+a.seat_booked {
+    background: green;
+    color: #fff !important;
+}
+
+.bus-seats a {
+    display: block;
+    padding: 15px 10px;
+    cursor: pointer;
+    min-height: auto !important;
+    font-size: 9px;
+    color: #000;
+}
+
+.bus-seats tr td span {
+    display: block;
+    padding: 15px 10px;
+    margin: -10px 0 -10px 0;
+    /*cursor: pointer;*/
+}
+
+.mep-hidden {
+    display: none;
+}
+
+.mage-pagination p {
+    color: #0070bd;
+}
+
+.mage-pagination .mage_paginate_link {
+    background: #0073aa;
+    text-decoration: none;
+    color: #fff;
+    font-size: 19px;
+    width: 33px;
+    height: 31px;
+    display: inline-block;
+    text-align: center;
+}
+
+.mage-table-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.mage-custom-filter-text {
+    display: block;
+    border-bottom: 2px solid #738b8b;
+}
+
+.mage-custom-filter-text span {
+    background: #738b8b;
+    display: inline-block;
+    padding: 2px 10px;
+    color: #fff;
+}
+
+.mage-custom-filter-area {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1%;
+    padding: 15px 20px 0;
+    background: #dfe6e6;
+    position: relative;
+    border-radius: 5px;
+}
+
+.wbtm_my_sell .mage-custom-filter-area {
+    background: #dbdada;
+    margin-top: 20px;
+}
+
+.mage-custom-filter-area input,
+.mage-custom-filter-area select {
+    width: 100%;
+}
+
+.mage-custom-filter-area .mage-custom-filter-item {
+    width: 13%;
+    box-sizing: border-box;
+    margin-bottom: 15px;
+}
+
+.mage-custom-filter-area .mage-custom-filter-item-new{
+    width: 13% !important;
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 15px;
+}
+
+.mage-custom-filter-area .mage-custom-filter-item:last-child {
+    flex-basis: 100%;
+}
+
+.mage-custom-filter-area .mage-custom-filter-item button[type="submit"] {
+    min-width: 100px;
+    padding: 7px;
+    background: #738b8b;
+    color: #fff;
+    border: 2px solid #738b8b;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+    margin-top: 5px;
+    font-weight: 700;
+}
+
+.mage-custom-filter-area .mage-custom-filter-item button[type="submit"]:hover {
+    background: #6b7d85;
+    color: #fff;
+}
+
+.mage-custom-filter-area .mage-custom-filter-area input::-webkit-input-placeholder {
+    color: #738b8bb3
+}
+
+.mage-custom-filter-area input:-moz-placeholder {
+    color: #738b8bb3
+}
+
+.mage-custom-filter-area input::-moz-placeholder {
+    color: #738b8bb3
+}
+
+.mage-custom-filter-area input:-ms-input-placeholder {
+    color: #738b8bb3
+}
+
+.mage-custom-filter-area input::-ms-input-placeholder {
+    color: #738b8bb3
+}
+
+.mage-custom-filter-area input::placeholder {
+    color: #738b8bb3
+}
+
+.wbtm_my_sell .mage-custom-filter-area .mage-custom-filter-item button[type="submit"] {
+    border: 2px solid #778f8f;
+    color: #778f8f;
+}
+
+.wbtm_my_sell .mage-custom-filter-area .mage-custom-filter-item button[type="submit"]:hover {
+    background: #778f8f;
+    color: #fff;
+}
+
+.wbtm_my_sell .wp-list-table thead tr {
+    background-color: #dbdada;
+}
+
+.wbtm_my_sell .wp-list-table tbody tr:nth-child(even) {
+    background-color: #e8e8e8;
+}
+
+.wbtm_my_sell table tbody td {
+    text-align: center;
+    line-height: 1.2;
+}
+
+.wbtm_my_sell .mage-bus-title-col {
+    width: 130px;
+}
+
+.wbtm_my_sell .mage-bus-title-col span {
+    display: block;
+    font-size: 11px;
+    color: #757575;
+}
+
+.extra_service_list_table tbody tr:nth-child(even) {
+    background: #e1e8e8;
+}
+
+.mage-custom-filter-area .mage-custom-filter-text {
+    position: absolute;
+    top: -10px;
+    left: 0;
+    background: #f1f1f1;
+    padding: 0 8px;
+    font-weight: 700;
+    border: 1px solid #c1c1c1;
+    border-radius: 3px;
+}
+
+.mage-custom-filter-area .mage-custom-filter-clear {
+    position: absolute;
+    top: -2px;
+    right: 0;
+    background: #f4433c;
+    padding: 1px 4px;
+    cursor: pointer;
+    color: #fff;
+    border: none;
+    text-decoration: none;
+}
+
+.mage-custom-filter-area-outer {
+    position: relative;
+}
+
+.wbtm-section-toggle {
+    position: absolute;
+    bottom: -16px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    width: 16px;
+    display: inline-block;
+    z-index: 1;
+    color: #738b8b;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.mage-filted-text {
+    background-color: #738b8b;
+    padding: 3px;
+    margin: 0;
+    color: #fff;
+    display: inline-block;
+}
+
+.mage-filted-text .mage-filted_item {
+    color: #22ffff;
+    padding: 3px;
+}
+
+.restore-data-list-wrap {
+    position: relative;
+}
+
+.restore-data-list-wrap::after {
+    content: '\f829';
+    display: inline-block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    color: #f4433c;
+}
+
+#csvExport {
+    background: #738B8B;
+    border: 1px solid white;
+    color: #fff;
+    padding: 5px;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.mage-admin-bus-seat {
+    position: relative;
+}
+
+.bus-seats .admin_passenger_type_list {
+    display: none;
+    position: absolute;
+    width: 182px;
+    left: 0;
+    top: 100%;
+    border: 1px solid #ead4ae;
+    z-index: 999;
+}
+
+.bus-seats .admin_passenger_type_list:before {
+    content: '';
+    position: absolute;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 5px solid #f7b85c;
+    bottom: 100%;
+    left: 25px;
+}
+
+.bus-seats .admin_passenger_type_list>ul {
+    background: #fff;
+}
+
+.bus-seats .admin_passenger_type_list>ul li {
+    border: none;
+    padding: 3px 5px;
+    background: #ffeed5;
+    text-align: left;
+    margin-bottom: 3px;
+    cursor: pointer;
+}
+
+.bus-seats .admin_passenger_type_list>ul li:hover {
+    background: #f7b85c;
+    color: #fff;
+}
+
+.bus-seats .admin_passenger_type_list>ul li:last-child {
+    margin-bottom: 0;
+}
+
+.bus-seats .admin_passenger_type_list>ul li span {
+    display: initial;
+}
+
+.bus-seats .mage-admin-bus-seat:hover .admin_passenger_type_list {
+    display: block;
+}
+
+
+/* Report */
+
+.wbtm_bus_ticket_wrap {
+    padding-right: 20px;
+}
+
+.mage_bus_seat {
+    display: flex;
+    justify-content: space-between;
+    min-width: 195px;
+    margin: 0 auto 20px;
+}
+
+.mage_bus_seat_item {
+    margin-right: 5%;
+    width: 100%;
+    text-align: center;
+}
+
+.mage_bus_seat .mage_bus_seat_item:last-child {
+    margin-right: 0;
+}
+
+.wbtm_bus_ticket_inner {
+    display: flex;
+}
+
+.wbtm_bus_ticket_inner .mage_seat_list_wrapper {
+    border: 2px dashed #bfbfbf;
+    padding: 0;
+    flex-basis: 60%;
+    border-radius: 3px;
+}
+
+.wbtm_bus_ticket_inner .mage_seat_detail {
+    flex-basis: 38%;
+    display: flex;
+    margin-left: 2%;
+}
+
+.wbtm_bus_ticket_inner .mage_seat_detail .inner {
+    width: 100%;
+    padding: 20px;
+    border: 2px dashed #bfbfbf;
+    border-radius: 3px;
+    min-height: 431px;
+}
+
+.mage_bus_seat_item .mage_bus_seat_icon {
+    position: relative;
+    width: 100px;
+    height: 80px;
+    border: 1px solid #fff;
+    text-align: center;
+    color: #292929;
+    font-weight: 700;
+    border-radius: 3px;
+    border-bottom: none;
+    box-shadow: -1px 4px 5px 2px #ccc8c8;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.mage_bus_seat_item .mage_bus_seat_icon.wbtm_booked {
+    background: #ffc107;
+}
+
+.mage_bus_seat_item .mage_bus_seat_icon.wbtm_sold {
+    background: #9e9e9e;
+}
+
+.mage_bus_seat_item .mage_bus_seat_icon.wbtm_free {
+    background: #8bc34a;
+}
+
+.mage_bus_seat_item .mage_bus_seat_icon:before,
+.mage_bus_seat_item .mage_bus_seat_icon:after {
+    content: "";
+    position: absolute;
+    width: 7px;
+    height: 20px;
+    border: 1px solid #ddd;
+    bottom: -1px;
+    background-color: #fff;
+    left: -4px;
+    border-radius: 3px 3px 0 0;
+}
+
+.mage_bus_seat_item .mage_bus_seat_icon:after {
+    left: initial;
+    right: -4px;
+}
+
+.mage_bus_seat_item .mage_bus_seat_icon .bus_handle {
+    position: absolute;
+    width: 86%;
+    height: 18px;
+    bottom: 0;
+    border-top: 1px solid #ddd;
+    background-color: #fff;
+    color: #e91e63;
+    z-index: 1;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+}
+
+.mage_bus_info {
+    color: #E91E63;
+    font-weight: 700;
+    margin: 0;
+}
+
+.mage-bus-report-table th {
+    font-weight: 700;
+}
+
+.bus-detail-status {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background: #ffe494;
+    margin: 0 0 10px;
+    border-radius: 5px;
+}
+
+.bus_info {
+    display: flex;
+    align-items: center;
+}
+
+.bus_info img {
+    width: 100px;
+    border-radius: 3px;
+    border: 2px solid #fff;
+    margin-right: 13px;
+}
+
+.bus_info a {
+    text-decoration: none;
+}
+
+.bus-detail-status strong {
+    margin-right: 10px;
+}
+
+.wbtm_seat_status_hint {
+    display: flex;
+    margin-top: 20px;
+    justify-content: flex-end;
+    padding-right: 20px;
+}
+
+.wbtm_seat_status_hint .wbtm_seat_hint_item {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.wbtm_seat_status_hint .wbtm_seat_hint_item span:first-child {
+    width: 12px;
+    height: 12px;
+    background: #ddd;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.wbtm_seat_status_hint .wbtm_seat_hint_item.wbtm_seat_free span:first-child {
+    background: #8bc34a;
+}
+
+.wbtm_seat_status_hint .wbtm_seat_hint_item.wbtm_seat_booked span:first-child {
+    background: #ffc107;
+}
+
+.wbtm_seat_status_hint .wbtm_seat_hint_item.wbtm_seat_sold span:first-child {
+    background: #9e9e9e;
+}
+
+.wbtm_seat_status_hint .wbtm_seat_hint_item:last-child {
+    margin-right: 0;
+}
+
+.wbtm_deck_title {
+    background: #cecece;
+    padding: 10px 15px;
+    margin: 0 0 10px;
+    color: #fff;
+    font-weight: 700;
+}
+
+
+/* .wbtm_seat_gap {
+    width: 36px;
+    margin: 0;
+    background: #e0e0e0;
+} */
+
+.wbtm-page-wrap {
+    padding-right: 18px;
+}
+
+
+/* Custom Tab */
+
+.wbtm_content_item.active {
+    display: block;
+}
+
+.wbtm_content_item.hide {
+    display: none;
+}
+
+.list {
+    width: 100px;
+    height: 100px;
+    background: #EEE;
+    padding: 10px;
+}
+
+.wbtm_btn_primary {
+    background: #2073aa;
+    border: none;
+    color: #fff;
+    border-radius: 3px;
+    padding: 10px 15px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.wbtm_search_form_inner {
+    display: flex;
+    gap: 10px;
+    align-items: flex-end;
+    margin: 0 auto;
+    border: 1px solid;
+    padding: 20px;
+    border-radius: 5px;
+    background-color: #f8d7da;
+    border-color: #f5c2c7
+}
+
+.wbtm_tab_link_wrap li {
+    display: inline-block;
+}
+
+.wbtm_tab_link_wrap li button {
+    cursor: pointer;
+}
+
+.wbtm_tab_link_wrap li button.wbtm_tab_active {
+    background: #519289 !important;
+    cursor: initial;
+    border: 1px solid #2173b4;
+}
+
+.do-flex {
+    display: flex;
+}
+
+.do-flex .bus_img {
+    width: 10%;
+}
+
+.do-flex .left {
+    width: 45%;
+}
+
+.do-flex .right {
+    width: 45%;
+}
+
+.do-flex .left>div {
+    width: 50%;
+}
+
+.do-flex .right>div {
+    width: 33.33%;
+}
+
+.do-flex .right div:last-child {
+    text-align: center;
+}
+
+.bus_list_header {
+    background: #161b37;
+    padding: 2px 10px;
+    border-radius: 3px;
+    color: #fff;
+}
+
+.do-flex .bus_img img {
+    width: 88px;
+    border-radius: 5px;
+    border: 2px solid #009688;
+}
+
+.wbtm_bus_list_item_inner {
+    padding: 2px 10px;
+}
+
+.wbtm_bus_list_item .item_bottom {
+    display: flex;
+}
+
+.wbtm_bus_list_item .item_bottom>div {
+    width: 33.33%;
+}
+
+.wbtm_search_form_inner .select2-container {
+    z-index: initial !important;
+}
+
+.admin-bus-list .bus-img img {
+    width: 80px !important;
+    height: auto;
+}
+
+.wbtm-page-top {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.wbtm-page-top-inner {
+    border: 1px solid #c8c8c8;
+    padding: 10px 20px 5px;
+    display: inline-block;
+    position: relative;
+    margin-top: 40px;
+    border-radius: 5px;
+}
+
+.wbtm-page-top-inner h3 {
+    position: absolute;
+    top: -10px;
+    left: 14px;
+    margin: 0;
+    background: #f1f1f1;
+    padding: 0 10px;
+    font-size: 12px;
+}
+
+.wbtm-admin-without-seat-plan-inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.select2-container {
+    width: 100% !important;
+    padding: 0;
+    min-width: initial !important;
+}
+
+
+/* Custom Tab END */
+
+.mage-no-seat .mage-no-seat-inner {
+    display: flex;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.mage-no-seat .mage-no-seat-left,
+.mage-no-seat .mage-no-seat-right {
+    border: 1px solid #979797;
+    border-radius: 5px;
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 5px;
+    position: relative;
+}
+
+.mage-no-seat .mage-bus-short-info {
+    margin: 0;
+}
+
+.mage-no-seat .mage-bus-short-info th,
+.mage-no-seat .mage-bus-short-info td {
+    border: none;
+    text-align: left;
+    padding: 9px 15px;
+}
+
+.mage-no-seat .mage-bus-short-info th {
+    font-weight: 700;
+}
+
+.mage-no-seat .mage-bus-short-info th span,
+.mage-no-seat .mage-bus-short-info th i {
+    padding-right: 5px;
+    min-width: 21px;
+}
+
+.mage-seat-table {
+    width: 100%;
+}
+
+.wbtm_subscription_bus_item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #ddd;
+    padding: 0 15px 0 0;
+    border-radius: 5px;
+    margin-bottom: 0;
+}
+
+.wbtm_subscription_bus_item .left {
+    display: flex;
+    align-items: center;
+}
+
+.wbtm_subscription_bus_item .left .bus-img {
+    margin-right: 10px;
+    width: 100px;
+}
+
+.wbtm_subscription_bus_item .left .bus-img img {
+    width: 100%;
+}
+
+.wbtm_subscription_bus_item .left .bus-title strong {
+    display: block;
+}
+
+.mage_customer_info_area {
+    border-bottom: 1px solid #d3d3d3;
+    margin-bottom: 20px;
+}
+
+.mage_customer_info_area .mage_hidden {
+    display: none !important;
+}
+
+.mage_customer_info_area .mage_form_list_body {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    padding: 10px;
+    background: #fff;
+}
+
+.mage_customer_info_area .mage_form_list_body label span {
+    display: block;
+}
+
+.mage_customer_info_area label {
+    width: calc(50% - 8px);
+    padding: 10px;
+}
+
+.mage_customer_info_area .mage_form_list_body input {
+    width: auto;
+    height: 30px;
+}
+
+.mage_customer_info_area .mage_form_list_body input.extra_bag_qty {
+    width: 100px;
+}
+
+.mage_customer_info_area .mage_title {
+    background: #a5a5a5;
+    padding: 10px;
+}
+
+.mage_customer_info_area .mage_title h5 {
+    text-transform: uppercase;
+    margin: 0;
+    text-align: center;
+    color: #fff;
+}
+
+.mtsa-form-select {
+    background-color: #ffffff !important;
+    border-color: #c0c0c0;
+    border-width: 0 1px 1px 1px;
+    border-style: solid;
+}
+
+.wbtm-subscription-item-wrap {
+    margin-bottom: 10px;
+}
+
+.mtsa-form-select {
+    margin: 1px 0 !important;
+}
+
+#mtsa-form-submit {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.wbtm_field_group #j_date {
+    padding: 0 5px;
+}
+
+.wbtm_btn_primary:disabled {
+    background: #83bbe1;
+    cursor: not-allowed;
+}
+
+
+/* New Reports */
+
+.wbbm_page_wrapper {
+    padding-right: 18px;
+}
+
+.wbbm_page_wrapper table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.wbbm_page_wrapper table th,
+.wbbm_page_wrapper table td {
+    text-align: left;
+    padding: 5px;
+    border: 1px solid #ddd;
+}
+
+.wbbm_page_wrapper table thead tr {
+    background: #95A5A6;
+}
+
+.wbbm_page_wrapper table thead tr th {
+    text-transform: uppercase;
+}
+
+.wbbm_page_wrapper table tbody tr:nth-child(even) {
+    background: #dcdbdb;
+}
+
+
+/* .wbbm_page_wrapper .wbbm-main-table > tbody > tr:not(:last-child):hover { */
+
+.wbbm_page_wrapper .wbbm-main-table tbody tr:not(:last-child):hover {
+    background-color: #c3bfbf52;
+}
+
+.wbbm_page_wrapper table tbody td {
+    color: #000;
+    position: relative;
+}
+
+.wbbm_page_wrapper>table>tbody tr:last-child {
+    background-color: #d7e4e4;
+}
+
+
+/* .wbbm_page_wrapper .wbbm-main-table > tbody > tr:not(.wbbm_report_detail) {
+    cursor: pointer;
+} */
+
+.wbbm_page_wrapper .wbbm-main-table>tbody>tr:last-child td {
+    color: #3e3e3e;
+    font-weight: 700;
+    font-size: 1.1em;
+    background: #f1e58f;
+}
+
+.wbbm_page_wrapper .wbbm-main-table>tbody>tr .wbbm_bus_detail--report {
+    position: relative;
+}
+
+.wbbm_page_wrapper .wbbm-main-table>tbody>tr:not(.wbbm_report_detail) td {
+    width: 20%;
+}
+
+.wbbm_page_wrapper .wbbm-main-table>tbody>tr:not(.wbbm_report_detail) td+td {
+    width: 45%;
+}
+
+.wbbm_page_wrapper .wbbm-main-table>tbody>tr:not(.wbbm_report_detail) td+td+td {
+    width: 15%;
+}
+
+.wbbm_page_wrapper .wbbm-main-table>tbody>tr:not(.wbbm_report_detail) td:last-child {
+    width: 20%;
+}
+
+.wbbm_page_filter_inner {
+    position: relative;
+    border: 1px solid #758889;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.sec-label {
+    position: absolute;
+    top: -10px;
+    background: #f1f1f1;
+    padding: 0 10px;
+    left: 10px;
+    font-size: 16px;
+    color: #758889;
+    text-transform: uppercase;
+}
+
+.wbbm_page_filter_wrapper {
+    margin-top: 50px;
+}
+
+.wbbm_page_wrapper label:not(.sec-label) {
+    display: block;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+}
+
+.wbbm_page_wrapper .wbbm-form-inner {
+    width: 100%;
+    display: flex;
+    gap: 12px;
+    align-items: flex-end;
+}
+
+.wbbm_page_wrapper .wbbm-field-group {
+    width: 15%;
+}
+
+.wbbm_page_wrapper .wbbm-field-group select,
+.wbbm_page_wrapper .wbbm-field-group input:not([type="submit"]) {
+    width: 100%;
+    border: 1px solid #758889;
+}
+
+.wbbm_page_content_wrapper {
+    margin-top: 50px;
+}
+
+.wbbm_no_data_found {
+    color: #e91e63;
+    text-align: center;
+}
+
+.wbbm_btn_new {
+    padding: 7px 22px;
+    border: none;
+    background: #2473aa;
+    color: #fff;
+    border-radius: 5px;
+    outline: thin;
+}
+
+.wbbm_page_filter_bottom .wbbm_btn_new {
+    flex-basis: 11%;
+}
+
+.wbbm_page_filter_top ul li {
+    display: inline-block;
+    border: 2px solid #c8c8c8;
+    margin-right: 5px;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.wbbm_page_filter_top ul li a {
+    padding: 12px;
+    background: #ddd;
+    border-radius: 5px;
+    color: #2473aa;
+    text-decoration: none;
+    display: block;
+}
+
+.filter_active,
+.filter_active a {
+    font-weight: 700;
+}
+
+.wbbm_report_detail {
+    display: none;
+}
+
+.wbbm_report_detail>td {
+    padding: 8px 15px !important;
+    background: #ffffe8;
+}
+
+.wbbm_report_detail_active {
+    background: #bdbdbd;
+}
+
+.wbbm_report_loading {
+    position: absolute;
+    left: 2px;
+    height: 26px;
+    top: 5px;
+    display: none;
+}
+
+.wbbm_report_detail thead tr {
+    background: #cfcfcf !important;
+}
+
+.wbbm_bus_detail--report button {
+    border: 1px solid #2473aa;
+    padding: 5px 8px;
+    color: #2473aa;
+    cursor: pointer;
+    margin-right: 2px;
+    min-width: 101px;
+}
+
+.action-btn-wrap {
+    margin-left: 23px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.action-btn-wrap button {
+    border: 1px solid #2473aa;
+    padding: 5px 8px;
+    color: #2473aa;
+    border-radius: 3px;
+}
+
+.wbbm_bus_detail--report button:nth-of-type(1) {
+    margin-bottom: 1px;
+}
+
+.wbbm_bus_detail--report button:hover {
+    background: #2473aa;
+    color: #fff;
+}
+
+.wbbm_bus_detail--report button:focus {
+    outline-width: 2px;
+    outline-color: #2473aa;
+}
+
+.wbbm-report-heading {
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.wbbm_page_filter_top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.reset-filter {
+    text-decoration: none;
+    background: #4b849f;
+    padding: 5px 10px;
+}
+
+#wbbm_report_table {
+    width: 100%;
+}
+
+.wbbm_page_wrapper .select2-container {
+    z-index: 11 !important;
+}
+
+
+/* New Reports END */
+
+
+/* Delete seat in passenger list */
+
+.wbtm_deleted_table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.wbtm_deleted_table thead th,
+.wbtm_deleted_table tbody td {
+    text-align: left;
+    border: 1px solid #d2d2d2;
+    padding: 5px;
+}
+
+.wbtm_deleted_table thead {
+    background: #f5d2d2;
+}
+
+.wbtm_deleted_table tbody tr:nth-child(even) td {
+    background: #e5dfdf;
+}
+
+.wbtm_deleted_table a {
+    text-decoration: none;
+}
+
+
+/* Delete seat in passenger list END */
+
+
+/* Extra Service */
+
+.wbtm_extra_service_wrap {
+    margin: 20px 0;
+}
+
+.wbtm_extra_service_wrap .wbtm_heading {
+    margin: 0;
+}
+
+.wbtm_extra_service_wrap .wbtm_extra_service_table {
+    margin: 0;
+    width: 100%;
+}
+
+.wbtm_extra_service_wrap .wbtm_extra_service_table thead td {
+    font-weight: 700;
+}
+
+.wbtm_extra_service_wrap .wbtm_extra_service_table thead td:last-child {
+    text-align: right;
+}
+
+.wbtm_extra_service_wrap .wbtm_extra_service_table thead tr td:nth-child(2) {
+    text-align: center;
+}
+
+.wbtm_extra_service_wrap .wbtm_extra_service_table tbody tr td:nth-child(1) {
+    width: 45%;
+}
+
+.wbtm_extra_service_wrap .wbtm_extra_service_table tbody tr td:nth-child(2) {
+    width: 45%;
+    text-align: center;
+}
+
+.wbtm_extra_service_wrap .wbtm_extra_service_table tbody tr td:last-child {
+    text-align: right;
+}
+
+.mage-grand-total {
+    text-align: right;
+    position: relative;
+}
+
+.mage-grand-total p {
+    font-size: 18px;
+}
+
+.mage-grand-total p strong {
+    padding-right: 22px;
+}
+
+
+/* .extra-qty-box {
+    width: 50px;
+} */
+
+
+/* Extra Service END */
+
+.wbtm_btn {
+    background: #5689b1;
+    padding: 5px 10px;
+    color: #fff;
+    border: none;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.wbtm-form-builder-loading {
+    display: none;
+}
+
+.wbtm_coach_no {
+    display: block;
+    line-height: 1;
+    color: #7a7a7a;
+    font-size: 10px;
+}
+
+.wbbm-table-top {
+    display: grid;
+    grid-template-columns: 1fr repeat(1, auto) 1fr;
+    grid-column-gap: 5px;
+    justify-items: center;
+    margin-bottom: 5px;
+}
+
+.wbbm-table-top>div:nth-child(1) {
+    grid-column-start: 2;
+}
+
+.wbbm-table-top .left {
+    display: flex;
+    justify-content: flex-start;
+    color: #363636;
+    gap: 3px;
+}
+
+.wbbm-table-top>div:nth-child(2) {
+    margin-left: auto;
+    display: flex;
+    align-items: center;
+}
+
+.wbbm-table-top .left .item {
+    background: #c7fdfd;
+    padding: 6px;
+    border: 1px solid #73e9e9;
+}
+
+.wbbm-table-top .left strong {
+    min-width: 130px;
+    display: inline-block;
+}
+
+.wbbm-table-top .left span {
+    text-decoration-line: underline;
+    text-decoration-style: double;
+    color: #f44336;
+}
+
+.wbtm-admin-seat-notification {
+    background: #e3a444;
+    padding: 10px;
+    margin-right: 15px;
+    color: #8f0f0f;
+    font-size: 14px;
+}
+
+.wbtm-admin-seat-notification>span {
+    background: #000;
+    padding: 5px;
+    color: #fff;
+    border-radius: 3px;
+    font-size: 14px;
+    margin-right: 3px;
+}
+
+table[class^="repeatable-fieldset-"] input {
+    width: 100%
+}
+
+
+/* RESPONSIVE */
+
+
+/* Smartphones (portrait and landscape) ----------- */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+    /* Styles */
+    .mage-custom-filter-area .mage-custom-filter-item {
+        width: 49%;
+    }
+}
+
+
+/* Smartphones (landscape) ----------- */
+
+@media only screen and (min-width: 321px) {
+    /* Styles */
+}
+
+
+/* Smartphones (portrait) ----------- */
+
+@media only screen and (max-width: 320px) {
+    /* Styles */
+}
+
+@media only screen and (max-device-width: 768px) {
+    .wbtm_search_form_inner {
+        flex-wrap: wrap;
+    }
+    .wbtm-search-form-sec.the_select input {
+        min-height: 29px;
+    }
+    .wbtm-search-form-sec.the_select input {
+        height: 29px;
+    }
+    .wbtm_search_form_inner .wbtm_field_group:nth-child(3),
+    .wbtm_search_form_inner .wbtm_field_group:nth-child(4) {
+        width: 48% !important;
+    }
+    .bus_list_header p {
+        font-size: 9px;
+    }
+    .admin-bus-list .bus-img img {
+        width: 36px !important;
+    }
+    .admin-bus-list .admin-bus-list-item.one {
+        width: 11%;
+    }
+    .admin-bus-list .admin-bus-list-item>div {
+        font-size: 10px;
+        line-height: 1em;
+    }
+    .admin-bus-list .admin-bus-list-item.one {
+        width: 15%;
+    }
+    .admin-bus-list .admin-bus-list-item.two,
+    .admin-bus-list .admin-bus-list-item.three {
+        width: 45%;
+    }
+    .admin-bus-list .admin-bus-list-item {
+        justify-content: space-between;
+    }
+    .admin-bus-list .admin-bus-list-item .seat-left,
+    .admin-bus-list .admin-bus-list-item button {
+        padding: 3px;
+        font-size: 8px;
+    }
+    .admin-bus-list .admin-bus-list-item strong {
+        display: block;
+    }
+    .wbtm_admin_seat_detail {
+        flex-wrap: wrap;
+    }
+    .wbtm_admin_seat_detail .bus-info-sec {
+        width: 100%;
+        float: none;
+        margin-top: 20px;
+    }
+    .bus-info-sec h6 {
+        font-size: 11px;
+    }
+    .bus-info-sec select {
+        min-height: 22px;
+        font-size: 11px;
+    }
+    .bus-info-sec input[type="text"] {
+        height: 15px;
+        width: 39px;
+    }
+    .mage-no-seat .mage-no-seat-inner {
+        flex-wrap: wrap;
+    }
+    .mage-no-seat .mage-bus-short-info th,
+    .mage-no-seat .mage-bus-short-info td {
+        padding: 9px 11px;
+    }
+    .mage-no-seat .mage-no-seat-left,
+    .mage-no-seat .mage-no-seat-right {
+        width: 100%;
+    }
+    .mage-no-seat .mage-seat-table input[type="text"] {
+        width: 50px;
+    }
+    .mage-no-seat select {
+        min-height: 22px;
+        font-size: 11px;
+    }
+    .mage-no-seat .mage_input_group input[type="text"] {
+        width: 39px;
+    }
+}
+
+
+/* iPads (portrait and landscape) ----------- */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    .admin-bus-list .bus-img img {
+        width: 66px !important;
+    }
+    .wbtm-search-form-sec.the_select input {
+        min-height: 29px;
+    }
+}
+
+
+/* iPads (landscape) ----------- */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+    /* Styles */
+}
+
+
+/* iPads (portrait) ----------- */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {}
+
+
+/* Desktops and laptops ----------- */
+
+@media only screen and (min-width: 1224px) {
+    /* Styles */
+}
+
+.wbtm-admin-return-route-title {
+    color: #41464b;
+    background-color: #e2e3e5;
+    border: 1px solid #d3d6d8;
+    padding: 10px;
+    text-align: center;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+.wbtm-admin-bus-list li:nth-child(even) {
+    background-color: #fff;
+    padding: 5px;
+}
+
+.wbtm-admin-bus-list li:nth-child(odd) {
+    background-color: #cff4fc;
+    padding: 5px;
+}
+
+.wbtm_field_group label {
+    margin-bottom: 5px;
+    display: inline-block;
+    font-weight: 800;
+}
+
+.bus-seat-panel-ss,
+.bus-info-sec {
+    background: #fff;
+    padding: 10px;
+    border: 3px dashed #d3d3d3;
+}
+
+.bus-seat-panel-ss div {
+    border: none !important;
+}
+
+.wbtm-pickpoint-wrap {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.mage_input_group,
+.mage_form_qty {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    width: max-content;
+    background: #d3d3d3;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.mage_input_group button {
+    width: 30px;
+    cursor: pointer;
+}
+
+.seat_selected_price a.button {
+    color: #fff;
+    border-color: #971e1e;
+    background: #971e1e;
+}
+
+.mage_form_qty div.mage_flex {
+    width: 30px;
+    cursor: pointer;
+    font-size: 9px;
+    text-align: center;
+    border: 1px solid #888;
+    display: block;
+    border-radius: 5px;
+    padding-top: 10px;
+    background: #e3e3e3;
+}
+
+.bus-info-sec button.single_add_to_cart_button {
+    text-align: center;
+    margin: auto;
+    display: block;
+    background-color: #1abb1a;
+    color: #fff;
+    border-color: #1abb1a;
+}
+
+.bus-info-sec button.single_add_to_cart_button:hover {
+    background-color: #0c860c;
+    color: #fff;
+    border-color: #0c860c;
+}
+
+.wbtm_anydate_return_wrap {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background: #f5f5f5;
+    padding: 10px;
+    align-items: center;
+}
+
+.wbtm_anydate_return_col {
+    width: 50%;
+    text-align: left;
+}
+
+.wbtm_anydate_return_switch label {
+    display: inline-block !important;
+    padding: 5px;
+    margin: 0;
+    cursor: pointer;
+}
+
+.wbtm_anydate_return_switch label:first-child {
+    border-right: 2px solid #eaeaea;
+}
+
+.wbtm_anydate_return_switch {
+    background: #d3d3d3;
+    width: max-content;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.wbtm_anydate_return_switch label.active {
+    background: #d9762e;
+    color: #fff;
+}
+
+.wbtm_anydate_return_switch label input[type="radio"] {
+    visibility: hidden;
+    width: 0;
+    height: 0;
+    position: absolute;
+}
+
+.wbtm_anydate_return_switch label span {
+    font-weight: 500;
+    margin-right: 0 !important;
+    padding: 5px;
+}
+
+.mage_input_group {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+a.blank_seat{background-size: contain !important;}
